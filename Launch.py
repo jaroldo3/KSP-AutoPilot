@@ -1,11 +1,11 @@
 import math
 import time
 import krpc
+import OrbitalAscent
 
 def main(vessel):
     countdown(vessel)
     vessel.auto_pilot.engage()
-
 
 def countdown(vessel):
     # Pre-launch setup
